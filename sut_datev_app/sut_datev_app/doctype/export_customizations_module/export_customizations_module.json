@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-13 11:04:36.922400",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "choose_doctypes_to_export_section",
+  "export_doctypes",
+  "choose_client_scripts_section",
+  "export_client_scripts",
+  "all_client_scripts",
+  "choose_server_scripts_section",
+  "export_server_scripts",
+  "all_server_scripts",
+  "email_section_section",
+  "emails",
+  "section_break_axee",
+  "last_export_file",
+  "section_break_msxr",
+  "export_status",
+  "export_message",
+  "last_export_update",
+  "last_export_result"
+ ],
+ "fields": [
+  {
+   "fieldname": "choose_doctypes_to_export_section",
+   "fieldtype": "Section Break",
+   "label": "Choose Doctypes To Export"
+  },
+  {
+   "fieldname": "export_doctypes",
+   "fieldtype": "Table MultiSelect",
+   "label": "Export Doctypes",
+   "options": "Export Customizations Child Doctypes"
+  },
+  {
+   "fieldname": "choose_client_scripts_section",
+   "fieldtype": "Section Break",
+   "label": "Choose Client Scripts"
+  },
+  {
+   "fieldname": "export_client_scripts",
+   "fieldtype": "Table MultiSelect",
+   "label": "Export Client Scripts",
+   "options": "Export Customizations Child Client Scripts"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_client_scripts",
+   "fieldtype": "Check",
+   "label": "All Client Scripts"
+  },
+  {
+   "fieldname": "choose_server_scripts_section",
+   "fieldtype": "Section Break",
+   "label": "Choose Server Scripts"
+  },
+  {
+   "fieldname": "export_server_scripts",
+   "fieldtype": "Table MultiSelect",
+   "label": "Export Server Scripts",
+   "options": "Export Customizations Child Server Scripts"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_server_scripts",
+   "fieldtype": "Check",
+   "label": "All Server Scripts"
+  },
+  {
+   "fieldname": "email_section_section",
+   "fieldtype": "Section Break",
+   "label": "Email Section"
+  },
+  {
+   "fieldname": "emails",
+   "fieldtype": "Table",
+   "label": "Emails",
+   "options": "Predefined Emails Child Table"
+  },
+  {
+   "fieldname": "section_break_axee",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "last_export_file",
+   "fieldtype": "Link",
+   "label": "last_export_file",
+   "options": "File",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_msxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Not Started",
+   "fieldname": "export_status",
+   "fieldtype": "Select",
+   "label": "Export Status",
+   "options": "\nNot Started\nStarting\nIn Progress\nCompleted\nCompleted with warnings\nFailed"
+  },
+  {
+   "fieldname": "export_message",
+   "fieldtype": "Small Text",
+   "label": "Export Message"
+  },
+  {
+   "fieldname": "last_export_update",
+   "fieldtype": "Datetime",
+   "label": "Last Export Update"
+  },
+  {
+   "fieldname": "last_export_result",
+   "fieldtype": "Code",
+   "label": "Last Export Result"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-20 12:56:10.352677",
+ "modified_by": "Administrator",
+ "module": "Sut Datev App",
+ "name": "Export Customizations Module",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
