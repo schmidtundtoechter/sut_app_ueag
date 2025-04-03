@@ -1,5 +1,5 @@
 
-# Fixtures Configuration for sut_datev_app
+# Fixtures Configuration for sut_app_ueag
 # This is automatically generated based on your customization export
 
 fixtures = [
