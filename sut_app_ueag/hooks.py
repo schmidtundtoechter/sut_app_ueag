@@ -1,5 +1,5 @@
 app_name = "sut_app_ueag"
-app_title = "Sut Datev App"
+app_title = "SUT App UEAG"
 app_publisher = "ahmad900mohammad@gmail.com"
 app_description = "export import app"
 app_email = "ahmad900mohammad@gmail.com"
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "sut_app_ueag",
 # 		"logo": "/assets/sut_app_ueag/logo.png",
-# 		"title": "Sut Datev App",
+# 		"title": "SUT App UEAG",
 # 		"route": "/sut_app_ueag",
 # 		"has_permission": "sut_app_ueag.api.permission.has_app_permission"
 # 	}
