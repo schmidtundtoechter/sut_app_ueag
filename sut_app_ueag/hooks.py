@@ -1,5 +1,5 @@
-app_name = "sut_datev_app"
-app_title = "Sut Datev App"
+app_name = "sut_app_ueag"
+app_title = "SUT App UEAG"
 app_publisher = "ahmad900mohammad@gmail.com"
 app_description = "export import app"
 app_email = "ahmad900mohammad@gmail.com"
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "sut_datev_app",
-# 		"logo": "/assets/sut_datev_app/logo.png",
-# 		"title": "Sut Datev App",
-# 		"route": "/sut_datev_app",
-# 		"has_permission": "sut_datev_app.api.permission.has_app_permission"
+# 		"name": "sut_app_ueag",
+# 		"logo": "/assets/sut_app_ueag/logo.png",
+# 		"title": "SUT App UEAG",
+# 		"route": "/sut_app_ueag",
+# 		"has_permission": "sut_app_ueag.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/sut_datev_app/css/sut_datev_app.css"
-# app_include_js = "/assets/sut_datev_app/js/sut_datev_app.js"
+# app_include_css = "/assets/sut_app_ueag/css/sut_app_ueag.css"
+# app_include_js = "/assets/sut_app_ueag/js/sut_app_ueag.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/sut_datev_app/css/sut_datev_app.css"
-# web_include_js = "/assets/sut_datev_app/js/sut_datev_app.js"
+# web_include_css = "/assets/sut_app_ueag/css/sut_app_ueag.css"
+# web_include_js = "/assets/sut_app_ueag/js/sut_app_ueag.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "sut_datev_app/public/scss/website"
+# website_theme_scss = "sut_app_ueag/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "sut_datev_app/public/icons.svg"
+# app_include_icons = "sut_app_ueag/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -75,43 +75,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "sut_datev_app.utils.jinja_methods",
-# 	"filters": "sut_datev_app.utils.jinja_filters"
+# 	"methods": "sut_app_ueag.utils.jinja_methods",
+# 	"filters": "sut_app_ueag.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "sut_datev_app.install.before_install"
-# after_install = "sut_datev_app.install.after_install"
+# before_install = "sut_app_ueag.install.before_install"
+# after_install = "sut_app_ueag.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "sut_datev_app.uninstall.before_uninstall"
-# after_uninstall = "sut_datev_app.uninstall.after_uninstall"
+# before_uninstall = "sut_app_ueag.uninstall.before_uninstall"
+# after_uninstall = "sut_app_ueag.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "sut_datev_app.utils.before_app_install"
-# after_app_install = "sut_datev_app.utils.after_app_install"
+# before_app_install = "sut_app_ueag.utils.before_app_install"
+# after_app_install = "sut_app_ueag.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "sut_datev_app.utils.before_app_uninstall"
-# after_app_uninstall = "sut_datev_app.utils.after_app_uninstall"
+# before_app_uninstall = "sut_app_ueag.utils.before_app_uninstall"
+# after_app_uninstall = "sut_app_ueag.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "sut_datev_app.notifications.get_notification_config"
+# notification_config = "sut_app_ueag.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -150,39 +150,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"sut_datev_app.tasks.all"
+# 		"sut_app_ueag.tasks.all"
 # 	],
 # 	"daily": [
-# 		"sut_datev_app.tasks.daily"
+# 		"sut_app_ueag.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"sut_datev_app.tasks.hourly"
+# 		"sut_app_ueag.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"sut_datev_app.tasks.weekly"
+# 		"sut_app_ueag.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"sut_datev_app.tasks.monthly"
+# 		"sut_app_ueag.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "sut_datev_app.install.before_tests"
+# before_tests = "sut_app_ueag.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "sut_datev_app.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "sut_app_ueag.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "sut_datev_app.task.get_dashboard_data"
+# 	"Task": "sut_app_ueag.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -196,13 +196,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["sut_datev_app.utils.before_request"]
-# after_request = ["sut_datev_app.utils.after_request"]
+# before_request = ["sut_app_ueag.utils.before_request"]
+# after_request = ["sut_app_ueag.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["sut_datev_app.utils.before_job"]
-# after_job = ["sut_datev_app.utils.after_job"]
+# before_job = ["sut_app_ueag.utils.before_job"]
+# after_job = ["sut_app_ueag.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -232,7 +232,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"sut_datev_app.auth.validate"
+# 	"sut_app_ueag.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
@@ -244,7 +244,7 @@ app_license = "mit"
 
 doc_events = {
     "Export Customizations Module": {
-        "validate": "sut_datev_app.sut_datev_app.doctype.export_customizations_module.export_customizations_module.validate"
+        "validate": "sut_app_ueag.sut_app_ueag.doctype.export_customizations_module.export_customizations_module.validate"
     }
 }
 
@@ -270,7 +270,7 @@ import frappe
 
 def create_fixture_dirs():
     try:
-        app_path = os.path.join(get_bench_path(), 'apps', 'sut_datev_app', 'sut_datev_app')
+        app_path = os.path.join(get_bench_path(), 'apps', 'sut_app_ueag', 'sut_app_ueag')
         fixtures_path = os.path.join(app_path, 'fixtures')
         
         # Create fixtures directory if it doesn't exist

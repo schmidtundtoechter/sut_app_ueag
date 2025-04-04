@@ -37,7 +37,7 @@ frappe.ui.form.on('Export Customizations Module', {
                     function() {
                         // Yes callback - directly call export function since doc is already saved
                         frm.call({
-                            method: 'sut_datev_app.sut_datev_app.doctype.export_customizations_module.export_customizations_module.export_customizations',
+                            method: 'sut_app_ueag.sut_app_ueag.doctype.export_customizations_module.export_customizations_module.export_customizations',
                             args: {
                                 docname: frm.doc.name
                             },

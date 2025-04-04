@@ -1,31 +1,37 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-03-13 11:02:50.739758",
+ "creation": "2025-03-13 11:08:35.392573",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "client_script_name"
+  "emails_section",
+  "email"
  ],
  "fields": [
   {
-   "fieldname": "client_script_name",
-   "fieldtype": "Link",
+   "fieldname": "emails_section",
+   "fieldtype": "Section Break",
+   "label": "Emails"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "in_preview": 1,
-   "label": "Client Script Name",
-   "options": "Client Script"
+   "label": "Email",
+   "options": "Email"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-20 12:56:54.746397",
+ "modified": "2025-03-20 12:56:20.226880",
  "modified_by": "Administrator",
- "module": "Sut Datev App",
- "name": "Export Customizations Child Client Scripts",
+ "module": "SUT App UEAG",
+ "name": "Predefined Emails Child Table",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

@@ -1,31 +1,31 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-03-13 11:03:42.142250",
+ "creation": "2025-03-13 11:01:49.931849",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "doctype_name"
+  "server_script_name"
  ],
  "fields": [
   {
-   "fieldname": "doctype_name",
+   "fieldname": "server_script_name",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_preview": 1,
-   "label": "Doctype Name",
-   "options": "DocType"
+   "label": "Server Script Name",
+   "options": "Server Script"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-03-20 12:56:31.934767",
+ "modified": "2025-03-20 12:57:03.812929",
  "modified_by": "Administrator",
- "module": "Sut Datev App",
- "name": "Export Customizations Child Doctypes",
+ "module": "SUT App UEAG",
+ "name": "Export Customizations Child Server Scripts",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

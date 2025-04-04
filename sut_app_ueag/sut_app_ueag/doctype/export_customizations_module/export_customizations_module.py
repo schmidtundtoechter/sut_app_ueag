@@ -33,9 +33,9 @@ class CustomizationExporter:
 	def __init__(self, doc):
 		self.doc = doc
 		# Path for actual importable document fixtures
-		self.fixtures_path = frappe.get_app_path("sut_datev_app", "fixtures")
+		self.fixtures_path = frappe.get_app_path("sut_app_ueag", "fixtures")
 		# Path for configuration/reference files (not importable)
-		self.config_path = frappe.get_app_path("sut_datev_app", "config", "fixtures")
+		self.config_path = frappe.get_app_path("sut_app_ueag", "config", "fixtures")
 		
 		# Create directories if they don't exist
 		os.makedirs(self.fixtures_path, exist_ok=True)
@@ -237,7 +237,7 @@ class CustomizationExporter:
 		# This is a configuration file, not a document, so use is_document=False
 		config = {
 			"export_info": {
-				"app": "sut_datev_app",
+				"app": "sut_app_ueag",
 				"timestamp": self.export_timestamp,
 				"exported_by": frappe.session.user
 			},
@@ -333,7 +333,7 @@ class CustomizationExporter:
 		
 		# Create a hooks.py sample file
 		hooks_content = f"""
-# Fixtures Configuration for sut_datev_app
+# Fixtures Configuration for sut_app_ueag
 # This is automatically generated based on your customization export
 
 fixtures = {json.dumps(fixtures_config, indent=4, default=str)}

@@ -1,5 +1,5 @@
 [project]
-name = "sut_datev_app"
+name = "sut_app_ueag"
 authors = [
     { name = "ahmad900mohammad@gmail.com", email = "ahmad900mohammad@gmail.com"}
 ]
