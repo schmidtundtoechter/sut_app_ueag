@@ -14,6 +14,20 @@
         "doctype": "Client Script"
     },
     {
+        "name": "Mitarbeiter - Probezeit festlegen",
+        "idx": 0,
+        "dt": "Employee",
+        "view": "Form",
+        "module": "Custom",
+        "enabled": 1,
+        "script": "frappe.ui.form.on('Employee', {\n    custom_dauer_der_probezeit: function(frm) {\n        let eintrittsdatum = frm.doc.date_of_joining;\n        let dauer = frm.doc.custom_dauer_der_probezeit;\n        // Schreibschutz immer zuerst aktivieren\n        frm.set_df_property('custom_probezeit_endet_am', 'read_only', 1);\n        // Sicherstellen, dass ein Eintrittsdatum vorhanden ist (außer bei individueller Vereinbarung)\n        if (!eintrittsdatum && dauer !== \"Individuell vereinbart.\") {\n            frappe.msgprint(__('Bitte zuerst ein Eintrittsdatum eintragen.'));\n            return;\n        }\n        if (dauer === \"Die ersten sechs Monate gelten als Probezeit.\") {\n            let datum = frappe.datetime.add_months(eintrittsdatum, 6);\n            frm.set_value('custom_probezeit_endet_am', datum);\n        } else if (dauer === \"Die ersten drei Monate gelten als Probezeit.\") {\n            let datum = frappe.datetime.add_months(eintrittsdatum, 3);\n            frm.set_value('custom_probezeit_endet_am', datum);\n        } else if (dauer === \"Die Probezeit entfällt.\") {\n            frm.set_value('custom_probezeit_endet_am', eintrittsdatum);\n        } else if (dauer === \"Individuell vereinbart.\") {\n            // Feld leeren und bearbeitbar machen\n            frm.set_value('custom_probezeit_endet_am', '');\n            frm.set_df_property('custom_probezeit_endet_am', 'read_only', 0);\n        }\n    }\n});",
+        "_user_tags": null,
+        "_comments": null,
+        "_assign": null,
+        "_liked_by": null,
+        "doctype": "Client Script"
+    },
+    {
         "name": "Mitarbeiter - Vertragsentw\u00fcrfe \u00fcbertragen, dokumentieren und Felder l\u00f6schen",
         "idx": 0,
         "dt": "Employee",
