@@ -252,6 +252,20 @@ doc_events = {
 # --------
 # These are the standard fixtures that will be created/imported during app installation
 fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_1' , 
+                'Employee-custom_grundlage_der_vergütung' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_2' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_3' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_4' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_in_verhandlung', 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_1_iv'
+                            ]]
+        ]
+    } , 
     # Include the export module doctypes in fixtures
     "Export Customizations Module",
     "Export Customizations Child Doctypes",
