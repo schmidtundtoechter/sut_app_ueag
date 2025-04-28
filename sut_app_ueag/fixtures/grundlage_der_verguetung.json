@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Grundlage der Verguetung",
+  "grundlage_der_verguetung": "Pâd. MiLo P2",
+  "modified": "2024-11-04 20:24:38.347325",
+  "name": "Pâd. MiLo P2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Grundlage der Verguetung",
+  "grundlage_der_verguetung": "Frei verhandelt",
+  "modified": "2025-01-08 13:13:09.163156",
+  "name": "Frei verhandelt"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Grundlage der Verguetung",
+  "grundlage_der_verguetung": "test",
+  "modified": "2024-10-10 15:12:37.426810",
+  "name": "test"
+ }
+]
