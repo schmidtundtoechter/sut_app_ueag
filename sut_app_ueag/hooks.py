@@ -249,6 +249,7 @@ doc_events = {
 }
 
 # Fixtures
+
 # --------
 # These are the standard fixtures that will be created/imported during app installation
 fixtures = [
@@ -263,6 +264,8 @@ fixtures = [
                 'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_4' , 
                 'Employee-custom_grundlage_der_vergütung_tarifdetails_in_verhandlung', 
                 'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_1_iv' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_2_iv' , 
+                'Employee-custom_grundlage_der_vergütung_tarifdetails_pr_3_iv' ,
                 'Employee-custom_dauer_der_probezeit' , 
                 'Employee-custom_probezeit_endet_am' , 
                 'Employee-custom_tätigkeitsbezeichnung' , 
