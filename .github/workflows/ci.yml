@@ -89,11 +89,13 @@ jobs:
       - name: Install
         working-directory: /home/runner/frappe-bench
         run: |
+          bench get-app erpnext --branch version-15
           bench get-app hrms https://github.com/frappe/hrms.git
           bench get-app sut_app_datev_export https://github.com/schmidtundtoechter/sut_app_datev_export.git
           bench get-app sut_app_ueag $GITHUB_WORKSPACE
           bench setup requirements --dev
           bench new-site --db-root-password root --admin-password admin test_site
+          bench --site test_site install-app erpnext
           bench --site test_site install-app hrms
           bench --site test_site install-app sut_app_datev_export
           bench --site test_site install-app sut_app_ueag
