@@ -1,5 +1,5 @@
 
-name: CI
+name: CI - sut_app_ueag
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-    name: Server
+    name: Server Tests
 
     services:
       redis-cache:
