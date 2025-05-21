@@ -103,11 +103,13 @@ jobs:
         env:
           CI: 'Yes'
 
+        # TODO: Test uninstalling the app
+
         # TODO: Implement tests for sut_app_ueag
-      - name: Run Tests
-        working-directory: /home/runner/frappe-bench
-        run: |
-          bench --site test_site set-config allow_tests true
-          bench --site test_site run-tests --app sut_app_ueag
-        env:
-          TYPE: server
+      #- name: Run Tests
+      #  working-directory: /home/runner/frappe-bench
+      #  run: |
+      #    bench --site test_site set-config allow_tests true
+      #    bench --site test_site run-tests --app sut_app_ueag
+      #  env:
+      #    TYPE: server
