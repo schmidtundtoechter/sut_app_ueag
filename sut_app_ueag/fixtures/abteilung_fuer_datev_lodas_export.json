@@ -1,0 +1,42 @@
+[
+ {
+  "abteilungsbezeichnung": "Bildung",
+  "abteilungscode": "1",
+  "docstatus": 0,
+  "doctype": "Abteilung fuer DATEV Lodas Export",
+  "modified": "2025-05-15 13:58:39.384142",
+  "name": "1-Bildung"
+ },
+ {
+  "abteilungsbezeichnung": "Bildung",
+  "abteilungscode": "2",
+  "docstatus": 0,
+  "doctype": "Abteilung fuer DATEV Lodas Export",
+  "modified": "2025-05-15 13:59:00.182358",
+  "name": "2-Bildung"
+ },
+ {
+  "abteilungsbezeichnung": "Geschäftsführung & Verwaltung",
+  "abteilungscode": "9",
+  "docstatus": 0,
+  "doctype": "Abteilung fuer DATEV Lodas Export",
+  "modified": "2025-05-15 13:59:35.423757",
+  "name": "9-Geschäftsführung & Verwaltung"
+ },
+ {
+  "abteilungsbezeichnung": "Beratung & Integration",
+  "abteilungscode": "4",
+  "docstatus": 0,
+  "doctype": "Abteilung fuer DATEV Lodas Export",
+  "modified": "2025-05-15 13:59:21.459367",
+  "name": "4-Beratung & Integration"
+ },
+ {
+  "abteilungsbezeichnung": "inJena",
+  "abteilungscode": "3",
+  "docstatus": 0,
+  "doctype": "Abteilung fuer DATEV Lodas Export",
+  "modified": "2025-05-15 14:00:16.604624",
+  "name": "3-inJena"
+ }
+]

@@ -1,0 +1,635 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:GEHALTSVERHANDLUNG-{zum_mitarbeiter}-{#####}",
+ "creation": "2025-05-15 11:57:54.965205",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "zum_mitarbeiter",
+  "\u00fcberblick_section",
+  "custom_summe_gehalt_bei_offener_vertragsverhandlung",
+  "column_break_ovcj",
+  "custom_summe_wochenarbeitszeit__bei_offener_vertragsverhandlung",
+  "custom_grundvertrag_\u00fcbersicht",
+  "custom_grundvertrag_in_verhandlung",
+  "custom_wochenstunden_grundvertrag_in_verhandlung",
+  "custom_gehalt_des_grundvertrags_in_verhandlung",
+  "custom_grundlage_der_verg\u00fctung_tarifdetails_in_verhandlung",
+  "column_break_chre",
+  "custom_unterzeichnungsdatum_in_verhandlung",
+  "custom_start_des_grundvertrags_in_verhandlung",
+  "custom_ende_des_arbeitsverh\u00e4ltnis_in_verhandlung",
+  "custom_jahressonderzahlung_grundvertrag_in_p_in_verhandlung",
+  "custom_jahressonderzahlung_grundvertrag_in_e_in_verhandlung",
+  "custom_arbeit_in_projekt_1",
+  "custom_projekt_1_in_verhandlung",
+  "custom_projekt_1_iv",
+  "custom_t\u00e4tigkeitsbezeichnung_1_iv",
+  "custom_wochenstunden_projekt_1_iv",
+  "custom_wochenstunden_zum_grundvertrag_hinzurechnen_iv",
+  "column_break_voji",
+  "custom_unterzeichnungsdatum_projekt_1_iv",
+  "custom_start_der_1_arbeit_iv",
+  "custom_befristung_des_1_vertrags_iv",
+  "custom_gehalt_projekt_1_iv",
+  "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_1_iv",
+  "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_iv",
+  "custom_jahressonderzahlung_projekt_1_in_p_iv",
+  "custom_jahressonderzahlung_projekt_1_in_e_iv",
+  "custom_arbeit_in_projekt_2",
+  "custom_projekt_2_in_verhandlung",
+  "custom_projekt_2_iv",
+  "custom_t\u00e4tigkeitsbezeichnung_2_iv",
+  "custom_wochenstunden_projekt_2_iv",
+  "custom_wochenstunden_zum_grundvertrag_hinzurechnen_1_iv",
+  "column_break_mxdp",
+  "custom_unterzeichnungsdatum_projekt_2_iv",
+  "custom_start_der_2_arbeit_iv",
+  "custom_befristung_des_2_vertrags_iv",
+  "custom_gehalt_projekt_2_iv",
+  "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_1_iv",
+  "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_2_iv",
+  "custom_jahressonderzahlung_projekt_2_in_p_iv",
+  "custom_jahressonderzahlung_projekt_2_in_e_iv",
+  "custom_arbeit_in_projekt_3",
+  "custom_projekt_3_in_verhandlung",
+  "custom_projekt_3_iv",
+  "custom_t\u00e4tigkeitsbezeichnung_3_iv",
+  "custom_wochenstunden_projekt_3_iv",
+  "custom_wochenstunden_zum_grundvertrag_hinzurechnen_3_iv",
+  "column_break_xryq",
+  "custom_unterzeichnungsdatum_projekt_3_iv",
+  "custom_start_der_3_arbeit_iv",
+  "custom_befristung_des_3_vertrags_iv",
+  "custom_gehalt_projekt_3_iv",
+  "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_2_iv",
+  "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_3_iv",
+  "custom_jahressonderzahlung_projekt_3_in_p_iv",
+  "custom_jahressonderzahlung_projekt_3_in_e_iv",
+  "custom_zulagen",
+  "custom_zulage_1_in_verhandlung",
+  "custom_projekt_zulage_1_iv",
+  "column_break_dlan",
+  "custom_kostenstelle_zulage_1_iv",
+  "custom_anfangsdatum_zulage_1_iv",
+  "custom_enddatum_zulage_1_iv",
+  "custom_zulage_zulage_1_iv",
+  "custom_positionsbezeichnung_zulage_1_iv",
+  "custom_wochenstunden_zulage_1_iv",
+  "custom_section_break_dpeo0",
+  "custom_zulage_2_in_verhandlung",
+  "custom_projekt_zulage_2_iv",
+  "column_break_iqvo",
+  "custom_kostenstelle_zulage_2_iv",
+  "custom_anfangsdatum_zulage_2_iv",
+  "custom_enddatum_zulage_2_iv",
+  "custom_zulage_zulage_2_iv",
+  "custom_positionsbezeichnung_zulage_2_iv",
+  "custom_wochenstunden_zulage_2_iv"
+ ],
+ "fields": [
+  {
+   "fieldname": "\u00fcberblick_section",
+   "fieldtype": "Section Break",
+   "label": "\u00dcberblick"
+  },
+  {
+   "description": "Wert zum Versenden von Vorabdokumenten.",
+   "fetch_from": "employee.custom_summe_gehalt_bei_offener_vertragsverhandlung",
+   "fieldname": "custom_summe_gehalt_bei_offener_vertragsverhandlung",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Summe Gehalt (bei offener Vertragsverhandlung)",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ovcj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Wert zum Versenden von Vorabdokumenten.",
+   "fetch_from": "employee.custom_summe_wochenarbeitszeit__bei_offener_vertragsverhandlung",
+   "fieldname": "custom_summe_wochenarbeitszeit__bei_offener_vertragsverhandlung",
+   "fieldtype": "Float",
+   "label": "Summe Wochenarbeitszeit  (bei offener Vertragsverhandlung)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_grundvertrag_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Grundvertrag in Verhandlung"
+  },
+  {
+   "fieldname": "custom_grundvertrag_\u00fcbersicht",
+   "fieldtype": "Section Break",
+   "label": "Grundvertrag"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_wochenstunden_grundvertrag_in_verhandlung",
+   "fieldtype": "Float",
+   "label": "Wochenstunden Grundvertrag in Verhandlung",
+   "precision": "4"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_gehalt_des_grundvertrags_in_verhandlung",
+   "fieldtype": "Currency",
+   "label": "Gehalt des Grundvertrags in Verhandlung"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_grundlage_der_verg\u00fctung_tarifdetails_in_verhandlung",
+   "fieldtype": "Link",
+   "label": "Grundlage der Verg\u00fctung (Tarifdetails) in Verhandlung",
+   "options": "Grundlage der Verguetung"
+  },
+  {
+   "fieldname": "column_break_chre",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_unterzeichnungsdatum_in_verhandlung",
+   "fieldtype": "Date",
+   "label": "Unterzeichnungsdatum in Verhandlung"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_start_des_grundvertrags_in_verhandlung",
+   "fieldtype": "Date",
+   "label": "Start des Grundvertrags in Verhandlung"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_ende_des_arbeitsverh\u00e4ltnis_in_verhandlung",
+   "fieldtype": "Date",
+   "label": "Ende des Arbeitsverh\u00e4ltnis in Verhandlung"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_grundvertrag_in_p_in_verhandlung",
+   "fieldtype": "Percent",
+   "label": "Jahressonderzahlung Grundvertrag in % in Verhandlung",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_grundvertrag_in_e_in_verhandlung",
+   "fieldtype": "Float",
+   "label": "Jahresssonderzahlung Grundvertrag in \u20ac in Verhandlung",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_projekt_1_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Projekt 1 in Verhandlung"
+  },
+  {
+   "fieldname": "custom_arbeit_in_projekt_1",
+   "fieldtype": "Section Break",
+   "label": "Projekt 1"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_projekt_1_iv",
+   "fieldtype": "Link",
+   "label": "Projekt 1 (i.V.)",
+   "options": "Project"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_t\u00e4tigkeitsbezeichnung_1_iv",
+   "fieldtype": "Link",
+   "label": "T\u00e4tigkeitsbezeichnung 1 (i.V.)",
+   "length": 25,
+   "options": "Designation"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_wochenstunden_projekt_1_iv",
+   "fieldtype": "Float",
+   "label": "Wochenstunden Projekt 1 (i.V.)",
+   "precision": "4"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_wochenstunden_zum_grundvertrag_hinzurechnen_iv",
+   "fieldtype": "Check",
+   "label": "Wochenstunden zum Grundvertrag hinzurechnen (i.V.)"
+  },
+  {
+   "fieldname": "column_break_voji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_unterzeichnungsdatum_projekt_1_iv",
+   "fieldtype": "Date",
+   "label": "Unterzeichnungsdatum Projekt 1 (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_start_der_1_arbeit_iv",
+   "fieldtype": "Date",
+   "label": "Start der 1. Arbeit (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_befristung_des_1_vertrags_iv",
+   "fieldtype": "Date",
+   "label": "Befristung des 1. Vertrags (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_gehalt_projekt_1_iv",
+   "fieldtype": "Float",
+   "label": "Gehalt Projekt 1 (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_1_iv",
+   "fieldtype": "Link",
+   "label": "Grundlage der Verg\u00fctung (Tarifdetails) Pr. 1 (i.V.)",
+   "options": "Grundlage der Verguetung"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_iv",
+   "fieldtype": "Check",
+   "label": "Ist zus\u00e4tzliche Verg\u00fctung zum Grundgehalt (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_1_in_p_iv",
+   "fieldtype": "Percent",
+   "label": "Jahressonderzahlung Projekt 1 in Pr (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_projekt_1_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_1_in_e_iv",
+   "fieldtype": "Float",
+   "label": "Jahressonderzahlung Projekt 1 in \u20ac (i.V.)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_projekt_2_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Projekt 2 in Verhandlung"
+  },
+  {
+   "fieldname": "custom_arbeit_in_projekt_2",
+   "fieldtype": "Section Break",
+   "label": "Projekt 2"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_projekt_2_iv",
+   "fieldtype": "Link",
+   "label": "Projekt 2 (i.V.)",
+   "options": "Project"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_t\u00e4tigkeitsbezeichnung_2_iv",
+   "fieldtype": "Link",
+   "label": "T\u00e4tigkeitsbezeichnung 2 (i.V.)",
+   "length": 25,
+   "options": "Designation"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_wochenstunden_projekt_2_iv",
+   "fieldtype": "Float",
+   "label": "Wochenstunden Projekt 2 (i.V.)",
+   "precision": "4"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_wochenstunden_zum_grundvertrag_hinzurechnen_1_iv",
+   "fieldtype": "Check",
+   "label": "Wochenstunden zum Grundvertrag hinzurechnen (i.V.)"
+  },
+  {
+   "fieldname": "column_break_mxdp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_unterzeichnungsdatum_projekt_2_iv",
+   "fieldtype": "Date",
+   "label": "Unterzeichnungsdatum Projekt 2 (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_start_der_2_arbeit_iv",
+   "fieldtype": "Date",
+   "label": "Start der 2. Arbeit (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_befristung_des_2_vertrags_iv",
+   "fieldtype": "Date",
+   "label": "Befristung des 2. Vertrags (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_gehalt_projekt_2_iv",
+   "fieldtype": "Float",
+   "label": "Gehalt Projekt 2 (i.V.)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_1_iv",
+   "fieldtype": "Check",
+   "label": "Ist zus\u00e4tzliche Verg\u00fctung zum Grundgehalt (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_2_iv",
+   "fieldtype": "Link",
+   "label": "Grundlage der Verg\u00fctung (Tarifdetails) Pr. 2 (i.V.)",
+   "options": "Grundlage der Verguetung"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_2_in_p_iv",
+   "fieldtype": "Percent",
+   "label": "Jahressonderzahlung Projekt 2 in % (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_projekt_2_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_2_in_e_iv",
+   "fieldtype": "Float",
+   "label": "Jahressonderzahlung Projekt 2 in \u20ac (i.V.) ",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_projekt_3_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Projekt 3 in Verhandlung"
+  },
+  {
+   "fieldname": "custom_arbeit_in_projekt_3",
+   "fieldtype": "Section Break",
+   "label": "Projekt 3"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_projekt_3_iv",
+   "fieldtype": "Link",
+   "label": "Projekt 3 (i.V.)",
+   "options": "Project"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_t\u00e4tigkeitsbezeichnung_3_iv",
+   "fieldtype": "Link",
+   "label": "T\u00e4tigkeitsbezeichnung 3 (i.V.)",
+   "length": 25,
+   "options": "Designation"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_wochenstunden_projekt_3_iv",
+   "fieldtype": "Float",
+   "label": "Wochenstunden Projekt 3 (i.V.)",
+   "precision": "4"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_wochenstunden_zum_grundvertrag_hinzurechnen_3_iv",
+   "fieldtype": "Check",
+   "label": "Wochenstunden zum Grundvertrag hinzurechnen (i.V.)"
+  },
+  {
+   "fieldname": "column_break_xryq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_unterzeichnungsdatum_projekt_3_iv",
+   "fieldtype": "Date",
+   "label": "Unterzeichnungsdatum Projekt 3 (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_start_der_3_arbeit_iv",
+   "fieldtype": "Date",
+   "label": "Start der 3. Arbeit (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_befristung_des_3_vertrags_iv",
+   "fieldtype": "Date",
+   "label": "Befristung des 3. Vertrags (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_gehalt_projekt_3_iv",
+   "fieldtype": "Float",
+   "label": "Gehalt Projekt 3 (i.V.)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_ist_zus\u00e4tzliche_verg\u00fctung_zum_grundgehalt_2_iv",
+   "fieldtype": "Check",
+   "label": "Ist zus\u00e4tzliche Verg\u00fctung zum Grundgehalt 2 (i.V.)"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_grundlage_der_verg\u00fctung_tarifdetails_pr_3_iv",
+   "fieldtype": "Link",
+   "label": "Grundlage der Verg\u00fctung (Tarifdetails) Pr. 3 (i.V.)",
+   "options": "Grundlage der Verguetung"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_3_in_p_iv",
+   "fieldtype": "Percent",
+   "label": "Jahressonderzahlung Projekt 3 in % (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_projekt_3_in_verhandlung",
+   "fieldname": "custom_jahressonderzahlung_projekt_3_in_e_iv",
+   "fieldtype": "Float",
+   "label": "Jahressonderzahlung Projekt 3 in \u20ac (i.V.)",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_zulage_1_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Zulage 1 in Verhandlung"
+  },
+  {
+   "fieldname": "custom_zulagen",
+   "fieldtype": "Section Break",
+   "label": "Zulage 1"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_projekt_zulage_1_iv",
+   "fieldtype": "Link",
+   "label": "Projekt (Zulage 1) (i.V.)",
+   "options": "Project"
+  },
+  {
+   "fieldname": "column_break_dlan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_kostenstelle_zulage_1_iv",
+   "fieldtype": "Link",
+   "label": "Kostenstelle (Zulage 1) (i.V.)",
+   "options": "Cost Center"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_anfangsdatum_zulage_1_iv",
+   "fieldtype": "Date",
+   "label": "Anfangsdatum (Zulage 1) (i.V.)"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_enddatum_zulage_1_iv",
+   "fieldtype": "Date",
+   "label": "Enddatum (Zulage 1) (i.V.)"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_zulage_zulage_1_iv",
+   "fieldtype": "Float",
+   "label": "Zulage (Zulage 1) (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_positionsbezeichnung_zulage_1_iv",
+   "fieldtype": "Link",
+   "label": "Positionsbezeichnung (Zulage 1) (i.V.)",
+   "options": "Designation"
+  },
+  {
+   "depends_on": "custom_zulage_1_in_verhandlung",
+   "fieldname": "custom_wochenstunden_zulage_1_iv",
+   "fieldtype": "Float",
+   "label": "Wochenstunden (Zulage 1) (i.V.)",
+   "precision": "4"
+  },
+  {
+   "default": "0",
+   "fieldname": "custom_zulage_2_in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Zulage 2 in Verhandlung"
+  },
+  {
+   "fieldname": "custom_section_break_dpeo0",
+   "fieldtype": "Section Break",
+   "label": "Zulage 2"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_projekt_zulage_2_iv",
+   "fieldtype": "Link",
+   "label": "Projekt (Zulage 2) (i.V.)",
+   "options": "Project"
+  },
+  {
+   "fieldname": "column_break_iqvo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_kostenstelle_zulage_2_iv",
+   "fieldtype": "Link",
+   "label": "Kostenstelle (Zulage 2) (i.V.)",
+   "options": "Cost Center"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_anfangsdatum_zulage_2_iv",
+   "fieldtype": "Date",
+   "label": "Anfangsdatum (Zulage 2) (i.V.)"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_enddatum_zulage_2_iv",
+   "fieldtype": "Date",
+   "label": "Enddatum (Zulage 2) (i.V.)"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_zulage_zulage_2_iv",
+   "fieldtype": "Float",
+   "label": "Zulage (Zulage 2) (i.V.)",
+   "precision": "2"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_positionsbezeichnung_zulage_2_iv",
+   "fieldtype": "Link",
+   "label": "Positionsbezeichnung (Zulage 2) (i.V.)",
+   "options": "Designation"
+  },
+  {
+   "depends_on": "custom_zulage_2_in_verhandlung",
+   "fieldname": "custom_wochenstunden_zulage_2_iv",
+   "fieldtype": "Float",
+   "label": "Wochenstunden (Zulage 2) (i.V.)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "zum_mitarbeiter",
+   "fieldtype": "Link",
+   "label": "Zum Mitarbeiter",
+   "options": "Employee",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-15 16:27:50.731225",
+ "modified_by": "Administrator",
+ "module": "SUT App UEAG",
+ "name": "GEHALTSVERHANDLUNG",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

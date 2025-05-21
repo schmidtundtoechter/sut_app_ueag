@@ -8,7 +8,7 @@
     "istable": 0,
     "editable_grid": 0,
     "track_changes": 0,
-    "module": "Custom",
+    "module": "SUT App UEAG",
     "restrict_to_domain": null,
     "autoname": "format:{bereich}",
     "naming_rule": "Expression",
