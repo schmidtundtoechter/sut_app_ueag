@@ -252,6 +252,7 @@ doc_events = {
 # --------
 # These are the standard fixtures that will be created/imported during app installation
 fixtures = [
+    "Client Script", "Server Script",
     # {
     #     "doctype": "Custom Field",
     #     "filters": [
