@@ -207,7 +207,7 @@
     "parent": "ÜAG",
     "parentfield": "links",
     "parenttype": "Workspace",
-    "report_ref_doctype": null,
+    "report_ref_doctype": "Employee",
     "type": "Link"
    },
    {
@@ -225,7 +225,7 @@
     "parent": "ÜAG",
     "parentfield": "links",
     "parenttype": "Workspace",
-    "report_ref_doctype": null,
+    "report_ref_doctype": "Employee",
     "type": "Link"
    },
    {
