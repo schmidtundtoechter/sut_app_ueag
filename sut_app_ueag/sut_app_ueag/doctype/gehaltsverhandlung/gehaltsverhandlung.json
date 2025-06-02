@@ -20,6 +20,7 @@
   "custom_unterzeichnungsdatum_in_verhandlung",
   "custom_start_des_grundvertrags_in_verhandlung",
   "custom_ende_des_arbeitsverh\u00e4ltnis_in_verhandlung",
+  "custom_unbefristet__in_verhandlung",
   "custom_jahressonderzahlung_grundvertrag_in_p_in_verhandlung",
   "custom_jahressonderzahlung_grundvertrag_in_e_in_verhandlung",
   "custom_arbeit_in_projekt_1",
@@ -604,12 +605,19 @@
    "label": "Zum Mitarbeiter",
    "options": "Employee",
    "reqd": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "custom_grundvertrag_in_verhandlung",
+   "fieldname": "custom_unbefristet__in_verhandlung",
+   "fieldtype": "Check",
+   "label": "Unbefristet In Verhandlung"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-15 16:27:50.731225",
+ "modified": "2025-05-29 09:01:45.868834",
  "modified_by": "Administrator",
  "module": "SUT App UEAG",
  "name": "GEHALTSVERHANDLUNG",
