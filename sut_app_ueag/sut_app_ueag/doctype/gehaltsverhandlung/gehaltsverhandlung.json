@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "zum_mitarbeiter",
+  "status",
   "\u00fcberblick_section",
   "custom_summe_gehalt_bei_offener_vertragsverhandlung",
   "column_break_ovcj",
@@ -622,12 +623,17 @@
   {
    "fieldname": "column_break_czah",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-03 09:58:47.971891",
+ "modified": "2025-06-03 13:50:12.774662",
  "modified_by": "Administrator",
  "module": "SUT App UEAG",
  "name": "GEHALTSVERHANDLUNG",
