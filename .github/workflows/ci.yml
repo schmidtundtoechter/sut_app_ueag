@@ -76,8 +76,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Fix broken apt sources (Ubuntu 24.04)
+        run: |
+          sudo sed -i 's|mirror+file:/etc/apt/apt-mirrors.txt|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list
+          sudo apt-get update
+
       - name: Install MariaDB Client
-        run: sudo apt-get install mariadb-client
+        run: sudo apt-get install -y mariadb-client
+
 
       - name: Setup
         run: |
